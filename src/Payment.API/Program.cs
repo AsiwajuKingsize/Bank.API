@@ -1,8 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+
 using Microsoft.OpenApi.Models;
 using Payment.API.Helpers;
-using Payment.API.Models;
-using Payment.API.ServiceInterfaces;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
