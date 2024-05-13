@@ -5,6 +5,9 @@ namespace Payment.API.Validators
 {
     public class AccountTransactionValidator : AbstractValidator<AccountTransactionDTO>
     {
+        /// <summary>
+        /// Account Transaction Model Validator
+        /// </summary>
         public AccountTransactionValidator() 
         {
             RuleFor(x => x.debitAccountId).NotNull().WithMessage("Please enter the account to debit");
